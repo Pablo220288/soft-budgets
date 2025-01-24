@@ -36,8 +36,8 @@ export const authOptions = {
         } catch (error) {
           console.error("Error: ", error);
         }
-        /* Metodo de ingreso sin coneccion a Mongo DB
-        try {
+        /* Metodo de ingreso sin coneccion a Mongo DB */
+        /* try {
           if (password !== "1111") {
             throw new Error("Invalid Credentials");
           }

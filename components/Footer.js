@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="w-full flex items-center justify-between p-4 bg-transparent">
+    <div className="flex-none w-full h-[50px] flex items-center justify-between p-4 bg-transparent">
       <span className="text-xs text-blue-gray-900">&copy; Soft Budgets - 2024</span>
       <Link
         className="text-xs text-blue-gray-900 hover:text-indigo-500 transition ease-in-out duration-150"
